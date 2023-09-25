@@ -1,10 +1,11 @@
 import "./App.css";
 
 import backgroundImage from "./assets/HomePageImage.jpg";
-import HanthanaGuideImage from"./assets/Hanthana.jpg";
-import UniversityVisit from"./assets/UniversityVisit.jpg";
-import GalBangollow from"./assets/GalBangollow.jpg";
-import UniversityPhotography from "./assets/UniversityPhotography.jpg"
+import HanthanaGuideImage from "./assets/Hanthana.jpg";
+import UniversityVisit from "./assets/UniversityVisit.jpg";
+import GalBangollow from "./assets/GalBangollow.jpg";
+import UniversityPhotography from "./assets/UniversityPhotography.jpg";
+import HostelRegistation from "./assets/HostelRegistation.jpg";
 
 function App() {
   return (
@@ -51,19 +52,33 @@ function App() {
       </p>
       <div className="Type">
         <div className="HantanaGuide">
-        <img className="HanthanaGuideImage" src={HanthanaGuideImage} alt="image" />
-        <button class="button button02">HantanaGuide</button>
+          <img
+            className="HanthanaGuideImage"
+            src={HanthanaGuideImage}
+            alt="image"
+          />
+          <button class="button button02">HantanaGuide</button>
         </div>
-        <div className="UniversityVisit">
-        <img className="UniversityVisit" src={UniversityVisit} alt="image" />
+        <div className="University">
+          <img className="UniversityVisit" src={UniversityVisit} alt="image" />
         </div>
         <div className="BangollowBooking">
-        <img className="GalBangollow" src={GalBangollow} alt="image" />
+          <img className="GalBangollow" src={GalBangollow} alt="image" />
         </div>
         <div className="Photography">
-        <img className="UniversityPhotography" src={UniversityPhotography} alt="image" />
+          <img
+            className="UniversityPhotography"
+            src={UniversityPhotography}
+            alt="image"
+          />
         </div>
-        <div className="HostelRegistation"></div>
+        <div className="HostelRegistation">
+          <img
+            className="HostelRegistation"
+            src={HostelRegistation}
+            alt="image"
+          />
+        </div>
       </div>
     </div>
   );
